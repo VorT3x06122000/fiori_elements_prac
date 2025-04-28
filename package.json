@@ -17,7 +17,8 @@
     "@sap/cds-dk": "^8"
   },
   "scripts": {
-    "start": "cds-serve"
+    "start": "cds-serve",
+    "watch-fioriapp": "cds watch --open fioriapp/webapp/index.html?sap-ui-xx-viewCache=false"
   },
   "cds": {
     "sql": {
@@ -27,5 +28,8 @@
       "auth": "xsuaa",
       "db": "hana"
     }
-  }
+  },
+  "sapux": [
+    "app/fioriapp"
+  ]
 }
