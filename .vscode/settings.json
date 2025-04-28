@@ -1,4 +1,12 @@
 {
-    "SAP HANA Database Explorer.ShowXsAdvancedConnections": true,
-    "SAP HANA Database Explorer.UseObjectsDefinitionForSqlGeneration.RetentionTime": 7
+  // uncomment entries once all libraries have been installed via 'npm install'
+  "eslint.validate": [
+    // "cds",
+    // "csn",
+    // "csv",
+    // "csv (semicolon)",
+    // "tab",
+    // "tsv"
+  ],
+  "SAP HANA Database Explorer.ShowXsAdvancedConnections": true
 }
